@@ -1,24 +1,24 @@
 # ExcelFakeDataDemo
 
-A demonstration spreadsheet with columns creating random and fuzz-type data from standard Excel Functions. Useful to teach and inspire those who want to create random data to use in security fuzzing, exploratory or automated data driven tests and know Excel but aren't confident in their coding abilities.
+A demonstration spreadsheet with columns creating random and fuzz-type data from standard in-built Excel Functions. Useful to teach and inspire those who want to create random data to use in security fuzzing, exploratory or automated data driven tests and know Excel but aren't confident in their coding abilities.
 
 Please feel free to fork, add your own functions and if you wish raise a pull request to add them to this.
 
-The numerical and date data is not linked to a specific locale, however the companies, city, state and postcode are Australian. I will add more support for other locales as time goes on, however
+The numerical and date data is not linked to a specific locale, however the companies, city, state and postcode are Australian. I will add more support for other locales as time goes on.
 
 ## Functions (Sheet1)
 
 * Random Numbers - Basic
 
-  * Column A = RAND()
+  * Column A = RAND() - Random number between 0 and 1
 
-  * Column B = RANDBETWEEN(1000,10000)
+  * Column B = RANDBETWEEN(1000,10000) - Random Integer between 1000 and 10000
 
 * Random Characters - Unicode
 
-  * Column C = CHAR(RANDBETWEEN(1,255))
+  * Column C = CHAR(RANDBETWEEN(1,255)) - single ASCII
 
-  * Column D = UNICHAR(RANDBETWEEN(1,65536)) - single 
+  * Column D = UNICHAR(RANDBETWEEN(1,65536)) - single Unicode
 
   * Column E = CHAR(RANDBETWEEN(1,255)) & CHAR(RANDBETWEEN(1,255)) & CHAR(RANDBETWEEN(1,255)) & CHAR(RANDBETWEEN(1,255)) & CHAR(RANDBETWEEN(1,255)) - five ascii characters
 
