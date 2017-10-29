@@ -1,11 +1,12 @@
-       # ExcelFakeDataDemo
+# ExcelFakeDataDemo
+
 A demonstration spreadsheet with columns creating random and fuzz-type data from standard Excel Functions. Useful to teach and inspire those who want to create random data to use in security fuzzing, exploratory or automated data driven tests and know Excel but aren't confident in their coding abilities.
 
 Please feel free to fork, add your own functions and if you wish raise a pull request to add them to this.
 
 The numerical and date data is not linked to a specific locale, however the companies, city, state and postcode are Australian. I will add more support for other locales as time goes on, however
 
-# Functions (Sheet1)
+## Functions (Sheet1)
 
 * Random Numbers - Basic
 
